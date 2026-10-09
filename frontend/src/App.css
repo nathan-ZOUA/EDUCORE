@@ -1,0 +1,16 @@
+.glass-panel {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.24);
+  backdrop-filter: blur(18px);
+}
+
+.grid-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at top, rgba(168, 85, 247, 0.18), transparent 35%),
+    linear-gradient(rgba(148, 163, 184, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.07) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+}
